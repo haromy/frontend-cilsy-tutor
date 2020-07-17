@@ -39,7 +39,6 @@ class Home extends Component {
 
   render() {
     const { loading, books } = this.state;
-    console.log(books);
     return(
       <Container>
         {

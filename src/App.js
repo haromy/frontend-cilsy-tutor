@@ -7,6 +7,7 @@ import {
 
 import Header from './components/Header';
 import Home from './pages/home';
+import HomeFunc from './pages/homeFunc';
 import AddBooks from './pages/addBooks';
 import './app.css';
 
@@ -16,7 +17,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path='/' exact component={HomeFunc} />
           <Route path='/add' component={AddBooks} />
         </Switch>
       </Router>
